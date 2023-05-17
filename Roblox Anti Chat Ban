@@ -1,4 +1,4 @@
-local ACL_LoadTime = tick()
+    local ACL_LoadTime = tick()
  
 local ChatChanged = false
 local OldSetting = nil
@@ -333,5 +333,4 @@ if OldSetting then
     StarterGui:SetCoreGuiEnabled(CoreGuiSettings[1], CoreGuiSettings[2])
 end
 Notify("🔹Anthony's ACL🔹", "Anti Chat and Screenshot Logger Loaded!", 15)
-print(string.format("Anti Chat-Logger has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
-end)
+print(string.format("Anti Chat-Logger has loaded in %s seconds."), tostring(tick() - ACL_LoadTime):sub(1, 4))
